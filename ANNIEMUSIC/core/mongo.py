@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
-from config import MONGO_DB_URI
+# from config import MONGO_DB_URI
 from ..logging import LOGGER
-
+MONGO_DB_URI = "mongodb+srv://tilak62035_db_user:Binodku1@cluster0.aihamda.mongodb.net/Annie?retryWrites=true&w=majority"
 LOGGER(__name__).info("Connecting to your Mongo Database...")
 
 try:
